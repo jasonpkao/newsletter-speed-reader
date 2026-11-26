@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+credentials.json
+*token*.json
+*.pem
+*.key
+
+# real mail, outputs, runtime data — never commit
+data/
+output/
+*.eml
+*.mbox
+*.log
+*.sqlite
+
+# python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store

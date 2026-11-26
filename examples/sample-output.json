@@ -1,0 +1,9 @@
+{
+  "_note": "ILLUSTRATIVE output, hand-written to show the response schema for examples/sample-input.json. It was NOT captured from a live model run. Regenerate it with: curl -s -X POST http://<SUMMARIZER_HOST>:8000/summarize -H 'Content-Type: application/json' -d @examples/sample-input.json",
+  "title": "The Weekly Widget #42：Acme Corp 改買翻新工廠機器人",
+  "source": "The Weekly Widget",
+  "date": "2026-11-20",
+  "topics": ["製造業自動化", "翻新設備", "採購策略", "TCO"],
+  "summary": "Acme Corp 宣布採購 300 台翻新組裝機器人，成本約比新品低 40%，交期由九個月縮短為六週。節省能否實現取決於與 Globex Robotics 的五年維修合約及備品供應。作者認為二手自動化設備正成為正式採購品項，中小製造商評估時應把維修合約與總持有成本放在售價之前。",
+  "url": "https://newsletter.example.com/issues/42"
+}

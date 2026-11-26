@@ -1,0 +1,8 @@
+{
+  "_note": "FICTIONAL newsletter written for this repo. Acme Corp, Globex and the sender are made up. Shape = the JSON body n8n POSTs to /summarize.",
+  "subject": "The Weekly Widget #42: Why Acme Corp is betting on refurbished factory robots",
+  "sender": "The Weekly Widget <weekly@newsletter.example.com>",
+  "date": "2026-11-20",
+  "body": "Hi readers,\n\nThis week Acme Corp announced it will buy 300 refurbished assembly robots instead of new ones. Acme's operations lead said refurbished units cost about 40% less and can be delivered in six weeks instead of nine months.\n\nThe catch: maintenance. Acme is signing a five-year service contract with Globex Robotics, which means the savings depend on Globex keeping spare parts in stock.\n\nWhat it means for small manufacturers: (1) used automation is becoming a real procurement category, (2) service contracts now matter more than the sticker price, (3) watch for financing products built around refurbished equipment.\n\nAlso this week: a short guide on how to compare total cost of ownership for new vs refurbished machines.\n\nRead the full issue: https://newsletter.example.com/issues/42\n\nSee you next Friday,\nThe Weekly Widget team",
+  "url": ""
+}

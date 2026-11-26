@@ -1,0 +1,17 @@
+# EXAMPLE systemd unit — generic paths. The real unit is equivalent but uses host-specific paths.
+# Listens only on the Docker bridge address so the n8n container can reach it and the internet can't.
+[Unit]
+Description=Newsletter Summarizer API (CrewAI "Sam" agent)
+After=network.target
+
+[Service]
+Type=simple
+User=newsletter-api
+WorkingDirectory=/opt/newsletter-speed-reader/src
+EnvironmentFile=/etc/newsletter-api/newsletter-api.env
+ExecStart=/opt/newsletter-speed-reader/.venv/bin/python -m uvicorn api:app --host <DOCKER_BRIDGE_IP> --port 8000
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
